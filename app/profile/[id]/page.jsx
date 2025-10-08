@@ -22,7 +22,7 @@ export default function ProfilePage() {
         setError("You must be logged in to view this profile.");
         setLoading(false);
         // Navigate away after setting error
-        setTimeout(() => navigateTo("/login"), 2000); 
+        setTimeout(() => navigateTo("/auth/login"), 2000); 
         return;
       }
       
